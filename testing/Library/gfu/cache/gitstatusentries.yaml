@@ -1,0 +1,504 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2021-11-04T01:59:40.569+13:00
+  initializedAtString: 2021-11-04T00:52:33.173+13:00
+  entries:
+  - path: testing\Assets\HighScoreScript.cs
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\HighScoreScript.cs
+    projectPath: Assets\HighScoreScript.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Assets\HighScoreScript.cs.meta
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\HighScoreScript.cs.meta
+    projectPath: Assets\HighScoreScript.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Assets\MathsMenu.cs
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\MathsMenu.cs
+    projectPath: Assets\MathsMenu.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Assets\MathsMenu.cs.meta
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\MathsMenu.cs.meta
+    projectPath: Assets\MathsMenu.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Assets\MouseLook.cs
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\MouseLook.cs
+    projectPath: Assets\MouseLook.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Assets\MouseLook.cs.meta
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\MouseLook.cs.meta
+    projectPath: Assets\MouseLook.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Assets\PlayerScript.cs
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\PlayerScript.cs
+    projectPath: Assets\PlayerScript.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Assets\PlayerScript.cs.meta
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\PlayerScript.cs.meta
+    projectPath: Assets\PlayerScript.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Assets\Scenes\Game.unity
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\Scenes\Game.unity
+    projectPath: Assets\Scenes\Game.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\Assets\TimeScript.cs
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\TimeScript.cs
+    projectPath: Assets\TimeScript.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\Assets\TimeScript.cs.meta
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Assets\TimeScript.cs.meta
+    projectPath: Assets\TimeScript.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\Library\ArtifactDB
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\Library\Artifacts\04\0419373fff63fd81ecb1c801c4df0a0d
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\04\0419373fff63fd81ecb1c801c4df0a0d
+    projectPath: Library\Artifacts\04\0419373fff63fd81ecb1c801c4df0a0d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\21\218602f305f7a2fde73398346bde098d
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\21\218602f305f7a2fde73398346bde098d
+    projectPath: Library\Artifacts\21\218602f305f7a2fde73398346bde098d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\24\244cea991bda975965fad47fb36c5d5f
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\24\244cea991bda975965fad47fb36c5d5f
+    projectPath: Library\Artifacts\24\244cea991bda975965fad47fb36c5d5f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\2e\2e26b21fc767a6ed6d2a29cf4357956c
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\2e\2e26b21fc767a6ed6d2a29cf4357956c
+    projectPath: Library\Artifacts\2e\2e26b21fc767a6ed6d2a29cf4357956c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\36\36afbf55af3d8f58ad6589a63ef0fb80
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\36\36afbf55af3d8f58ad6589a63ef0fb80
+    projectPath: Library\Artifacts\36\36afbf55af3d8f58ad6589a63ef0fb80
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\38\38533022778ae4d3299d6a7161052346
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\38\38533022778ae4d3299d6a7161052346
+    projectPath: Library\Artifacts\38\38533022778ae4d3299d6a7161052346
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\38\38573e10d9aa128ffd01c1b0c0097420
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\38\38573e10d9aa128ffd01c1b0c0097420
+    projectPath: Library\Artifacts\38\38573e10d9aa128ffd01c1b0c0097420
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\43\438958d40cf99e65d7f7abd0e0335411
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\43\438958d40cf99e65d7f7abd0e0335411
+    projectPath: Library\Artifacts\43\438958d40cf99e65d7f7abd0e0335411
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\48\48c01a66aa946b544d4f7db0198b8930
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\48\48c01a66aa946b544d4f7db0198b8930
+    projectPath: Library\Artifacts\48\48c01a66aa946b544d4f7db0198b8930
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\4a\4ad3ec5d91f9d9e4835b77a65851d7ff
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\4a\4ad3ec5d91f9d9e4835b77a65851d7ff
+    projectPath: Library\Artifacts\4a\4ad3ec5d91f9d9e4835b77a65851d7ff
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\4c\4c152e0abe5c4cc82b45af39e6032acc
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\4c\4c152e0abe5c4cc82b45af39e6032acc
+    projectPath: Library\Artifacts\4c\4c152e0abe5c4cc82b45af39e6032acc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\4e\4eac15a9d5ecd59178408f85fac2bcde
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\4e\4eac15a9d5ecd59178408f85fac2bcde
+    projectPath: Library\Artifacts\4e\4eac15a9d5ecd59178408f85fac2bcde
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\5a\5a9f5eb2bed28c4a324c8e87a65d2ed5
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\5a\5a9f5eb2bed28c4a324c8e87a65d2ed5
+    projectPath: Library\Artifacts\5a\5a9f5eb2bed28c4a324c8e87a65d2ed5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\62\62c110233dd6c40db156059c8194e2e7
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\62\62c110233dd6c40db156059c8194e2e7
+    projectPath: Library\Artifacts\62\62c110233dd6c40db156059c8194e2e7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\77\7747f39828a9d1d2bea024d54bfc8eea
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\77\7747f39828a9d1d2bea024d54bfc8eea
+    projectPath: Library\Artifacts\77\7747f39828a9d1d2bea024d54bfc8eea
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\7f\7fe5def1fe19270816d08f84c45c2a0d
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\7f\7fe5def1fe19270816d08f84c45c2a0d
+    projectPath: Library\Artifacts\7f\7fe5def1fe19270816d08f84c45c2a0d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\8d\8d5324848fd42ec29a685774d8e8bfe1
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\8d\8d5324848fd42ec29a685774d8e8bfe1
+    projectPath: Library\Artifacts\8d\8d5324848fd42ec29a685774d8e8bfe1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\8f\8f4cd4f67353e9cb93cd422169123d62
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\8f\8f4cd4f67353e9cb93cd422169123d62
+    projectPath: Library\Artifacts\8f\8f4cd4f67353e9cb93cd422169123d62
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\93\9342338c38e04247d6f0ff7ebdf493ec
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\93\9342338c38e04247d6f0ff7ebdf493ec
+    projectPath: Library\Artifacts\93\9342338c38e04247d6f0ff7ebdf493ec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\94\94bae89188a892cb7aa69e79207242d8
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\94\94bae89188a892cb7aa69e79207242d8
+    projectPath: Library\Artifacts\94\94bae89188a892cb7aa69e79207242d8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\94\94e7389690faf9c5da290c2110beb44b
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\94\94e7389690faf9c5da290c2110beb44b
+    projectPath: Library\Artifacts\94\94e7389690faf9c5da290c2110beb44b
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\ba\bad16e7d06128e5d024a337ea8526659
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\ba\bad16e7d06128e5d024a337ea8526659
+    projectPath: Library\Artifacts\ba\bad16e7d06128e5d024a337ea8526659
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\bb\bb6bc6914d75b9bc84f6a8e9454eafa2
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\bb\bb6bc6914d75b9bc84f6a8e9454eafa2
+    projectPath: Library\Artifacts\bb\bb6bc6914d75b9bc84f6a8e9454eafa2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\c2\c2b1822f65ffd7a8d40a4e9684a57c95
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\c2\c2b1822f65ffd7a8d40a4e9684a57c95
+    projectPath: Library\Artifacts\c2\c2b1822f65ffd7a8d40a4e9684a57c95
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\c6\c6642610bf2ce6761e5a05f8e496a7d9
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\c6\c6642610bf2ce6761e5a05f8e496a7d9
+    projectPath: Library\Artifacts\c6\c6642610bf2ce6761e5a05f8e496a7d9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\c9\c91cecd902c36c32aa41f59475c23f0e
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\c9\c91cecd902c36c32aa41f59475c23f0e
+    projectPath: Library\Artifacts\c9\c91cecd902c36c32aa41f59475c23f0e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\c9\c97c41a9d5f66580650a74c55e2102fc
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\c9\c97c41a9d5f66580650a74c55e2102fc
+    projectPath: Library\Artifacts\c9\c97c41a9d5f66580650a74c55e2102fc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\c9\c9a3b18f5f0c3073f0cbadc72f37bdae
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\c9\c9a3b18f5f0c3073f0cbadc72f37bdae
+    projectPath: Library\Artifacts\c9\c9a3b18f5f0c3073f0cbadc72f37bdae
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\cb\cb9a2a3f3b288f617b421f908135df32
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\cb\cb9a2a3f3b288f617b421f908135df32
+    projectPath: Library\Artifacts\cb\cb9a2a3f3b288f617b421f908135df32
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\ce\ceae02ed3babfb2c805e0609510abdd9
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\ce\ceae02ed3babfb2c805e0609510abdd9
+    projectPath: Library\Artifacts\ce\ceae02ed3babfb2c805e0609510abdd9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\e1\e1f4046e8a0c427631d5cd1cdb2dece0
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\e1\e1f4046e8a0c427631d5cd1cdb2dece0
+    projectPath: Library\Artifacts\e1\e1f4046e8a0c427631d5cd1cdb2dece0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: testing\Library\Artifacts\e2\e20f728a331b767c719c3c9632827af8
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\e2\e20f728a331b767c719c3c9632827af8
+    projectPath: Library\Artifacts\e2\e20f728a331b767c719c3c9632827af8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\Artifacts\fa\fa6383c828dc40fd620482281897aafe
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\Artifacts\fa\fa6383c828dc40fd620482281897aafe
+    projectPath: Library\Artifacts\fa\fa6383c828dc40fd620482281897aafe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\EditorInstance.json
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\Library\SourceAssetDB
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\Library\StateCache\Hierarchy\e165d0-mainStage.json
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\StateCache\Hierarchy\e165d0-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\e165d0-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\Library\StateCache\SceneView\e9b9b1-mainStage.json
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Library\StateCache\SceneView\e9b9b1-mainStage.json
+    projectPath: Library\StateCache\SceneView\e9b9b1-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\ProjectSettings\TagManager.asset
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: testing\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityLockfile
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-0b4fb3d0e54f7754686d4206178010ea
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-0b4fb3d0e54f7754686d4206178010ea
+    projectPath: Temp\UnityTempFile-0b4fb3d0e54f7754686d4206178010ea
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-0dd8805a85010f042b994e2db594c434
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-0dd8805a85010f042b994e2db594c434
+    projectPath: Temp\UnityTempFile-0dd8805a85010f042b994e2db594c434
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-23b80187ffcabe842b336e2ba936b4ff
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-23b80187ffcabe842b336e2ba936b4ff
+    projectPath: Temp\UnityTempFile-23b80187ffcabe842b336e2ba936b4ff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-2b94e9f6cf61540468d1a37c17712d34
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-2b94e9f6cf61540468d1a37c17712d34
+    projectPath: Temp\UnityTempFile-2b94e9f6cf61540468d1a37c17712d34
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-381a1c4b8c5141342ac32a040a41bac4
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-381a1c4b8c5141342ac32a040a41bac4
+    projectPath: Temp\UnityTempFile-381a1c4b8c5141342ac32a040a41bac4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-47969427e864eb84d84b14f5e27a2a3e
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-47969427e864eb84d84b14f5e27a2a3e
+    projectPath: Temp\UnityTempFile-47969427e864eb84d84b14f5e27a2a3e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-4aa714b0b99d67f46967138cf15d360d
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-4aa714b0b99d67f46967138cf15d360d
+    projectPath: Temp\UnityTempFile-4aa714b0b99d67f46967138cf15d360d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-5067d62687b30f1428eb071d56f9901a
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-5067d62687b30f1428eb071d56f9901a
+    projectPath: Temp\UnityTempFile-5067d62687b30f1428eb071d56f9901a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-65538e68e218df74ca88a26adc7198b9
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-65538e68e218df74ca88a26adc7198b9
+    projectPath: Temp\UnityTempFile-65538e68e218df74ca88a26adc7198b9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-729f80571a193164f819c6a5f0c2468a
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-729f80571a193164f819c6a5f0c2468a
+    projectPath: Temp\UnityTempFile-729f80571a193164f819c6a5f0c2468a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-869de6eaf95df194386a382ff220762d
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-869de6eaf95df194386a382ff220762d
+    projectPath: Temp\UnityTempFile-869de6eaf95df194386a382ff220762d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-8d26264014470264d86870f1bc44be11
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-8d26264014470264d86870f1bc44be11
+    projectPath: Temp\UnityTempFile-8d26264014470264d86870f1bc44be11
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-a91837147b3c10a429fa5a009033159e
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-a91837147b3c10a429fa5a009033159e
+    projectPath: Temp\UnityTempFile-a91837147b3c10a429fa5a009033159e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-ab4db7a4a57553b40baec411cd16749f
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-ab4db7a4a57553b40baec411cd16749f
+    projectPath: Temp\UnityTempFile-ab4db7a4a57553b40baec411cd16749f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-bd258bab91e120543a95daf5691f188d
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-bd258bab91e120543a95daf5691f188d
+    projectPath: Temp\UnityTempFile-bd258bab91e120543a95daf5691f188d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-c37ca2ce183b30d49bf34f3ed9481744
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-c37ca2ce183b30d49bf34f3ed9481744
+    projectPath: Temp\UnityTempFile-c37ca2ce183b30d49bf34f3ed9481744
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-d0b0ebe3899ea5e41baadf0f57426886
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-d0b0ebe3899ea5e41baadf0f57426886
+    projectPath: Temp\UnityTempFile-d0b0ebe3899ea5e41baadf0f57426886
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-e2c76ac5b1c4c2a428d0526481784401
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-e2c76ac5b1c4c2a428d0526481784401
+    projectPath: Temp\UnityTempFile-e2c76ac5b1c4c2a428d0526481784401
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: testing\Temp\UnityTempFile-e439eaca59a20ee499773bed651007f0
+    fullPath: C:\Users\user\Unity\RacinginAlgebra\testing\Temp\UnityTempFile-e439eaca59a20ee499773bed651007f0
+    projectPath: Temp\UnityTempFile-e439eaca59a20ee499773bed651007f0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1

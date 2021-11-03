@@ -4,10 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-public class TimeScript : MonoBehaviour
+public class PlayerScript : MonoBehaviour
 {
     //Declaring variables for game
     public GameObject playerTarget;
+    public GameObject MathsMenu;
+    public GameObject WrongAnswer;
+    public GameObject RightAnswer;
     public float timer;
     public float seconds;
     public float minutes;
@@ -29,6 +32,9 @@ public class TimeScript : MonoBehaviour
         PlayerPrefs.SetFloat("Highscore", 10000); //Setting the highscore to an insane high number so that their highscore will always come below it initally
         PlayerPrefs.SetFloat("Points", 0);
         Points.gameObject.SetActive( false );
+        MathsMenu.gameObject.SetActive( false );
+        WrongAnswer.gameObject.SetActive( false );
+        RightAnswer.gameObject.SetActive( false );
     }
 
 
@@ -58,6 +64,32 @@ public class TimeScript : MonoBehaviour
         }
     }
 
+    public void Answer() {
+        WrongAnswer.gameObject.SetActive( true ); //Displaying text
+        PlayerPrefs.SetFloat("Points", PlayerPrefs.GetFloat("Points")-1); //Removing point
+        Points.gameObject.SetActive( true ); //Displaying points statement
+        Points.text = "You have " + PlayerPrefs.GetFloat("Points").ToString() + " points!"; //Point statement
+        Time.timeScale = 1f; //Starts the game again
+    }
+
+    public void Answer1() {
+        RightAnswer.gameObject.SetActive( true );
+        PlayerPrefs.SetFloat("Points", PlayerPrefs.GetFloat("Points")+1 );
+        Points.gameObject.SetActive( true );
+        Points.text = "You have " + PlayerPrefs.GetFloat("Points").ToString() + " points!";
+        Time.timeScale = 1f;
+    }
+
+    
+    public void Answer2() {
+        WrongAnswer.gameObject.SetActive( true );
+        PlayerPrefs.SetFloat("Points", PlayerPrefs.GetFloat("Points")-1);
+        Points.gameObject.SetActive( true );
+        Points.text = "You have " + PlayerPrefs.GetFloat("Points").ToString() + " points!";
+        Time.timeScale = 1f;
+    }
+
+
     void OnTriggerEnter(Collider other) { //Changed script so it's being applied on player, this means we can just set a seperate function 
                                           //For each thing that the player encounters, instead of having different scripts for each object all going back to the player  
         if(other.tag == "start")
@@ -65,6 +97,9 @@ public class TimeScript : MonoBehaviour
             start = !start; //This begins StopwatchCounter()
             timer = 0f; //Resetting timer
             Points.gameObject.SetActive( false ); //Hiding point displayer
+            WrongAnswer.gameObject.SetActive( false );
+            RightAnswer.gameObject.SetActive( false );
+            MathsMenu.gameObject.SetActive( false );
         }
         if(other.tag == "outofbounds") //Is triggered when player goes off track
         {
@@ -98,8 +133,8 @@ public class TimeScript : MonoBehaviour
                 PlayerPrefs.SetFloat("Highscore", timer);
             }
             Highscore.text = "Highscore: " + Mathf.Round(PlayerPrefs.GetFloat("Highscore")).ToString() + " seconds"; //Outputting highscore time
-            Points.gameObject.SetActive( true );
-            Points.text = "You have " + PlayerPrefs.GetFloat("Points").ToString() + " points!"; //Outputting how many points the player has now
+            Time.timeScale = 0f; //Pause the game for the quiz
+            MathsMenu.gameObject.SetActive( true );
             timer = 0f; //Reset timer
             start = false; //Stop timer
         }
