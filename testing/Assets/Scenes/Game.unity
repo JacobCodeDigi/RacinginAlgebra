@@ -941,6 +941,7 @@ GameObject:
   - component: {fileID: 378273745}
   - component: {fileID: 378273744}
   - component: {fileID: 378273743}
+  - component: {fileID: 378273747}
   m_Layer: 5
   m_Name: PauseMenu
   m_TagString: PauseMenu
@@ -1033,6 +1034,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &378273747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378273742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 861cdbde492ced845881e21ac0412740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pause: {fileID: 0}
 --- !u!1 &396132736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,7 +1325,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 975a915323dd24448aa9ab33807395ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WrongAnswer: {fileID: 2029049184}
+  RightAnswer: {fileID: 167928705}
   Maths: {fileID: 952985195}
+  Points: {fileID: 753335355}
 --- !u!1 &454988553 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: f26ba077fc0b44aa98ece4e68647d4e2,
@@ -1954,8 +1971,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 952985195}
-        m_MethodName: 
+      - m_Target: {fileID: 952985196}
+        m_MethodName: Answer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2774,7 +2791,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 975a915323dd24448aa9ab33807395ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WrongAnswer: {fileID: 0}
+  RightAnswer: {fileID: 0}
   Maths: {fileID: 0}
+  Points: {fileID: 0}
 --- !u!1 &870255122
 GameObject:
   m_ObjectHideFlags: 0
@@ -3177,7 +3197,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 975a915323dd24448aa9ab33807395ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Maths: {fileID: 0}
+  WrongAnswer: {fileID: 2029049184}
+  RightAnswer: {fileID: 167928705}
+  Maths: {fileID: 952985195}
+  Points: {fileID: 753335355}
 --- !u!114 &952985197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3354,7 +3377,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 952985197}
+      - m_Target: {fileID: 952985196}
         m_MethodName: Answer2
         m_Mode: 1
         m_Arguments:
@@ -4282,7 +4305,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 952985197}
+      - m_Target: {fileID: 952985196}
         m_MethodName: Answer1
         m_Mode: 1
         m_Arguments:
@@ -5504,24 +5527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f7b40813e96821428b176f217d417eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTarget: {fileID: 6945234562344511699}
-  PauseMenu: {fileID: 0}
-  MathsMenu: {fileID: 0}
-  WrongAnswer: {fileID: 0}
-  RightAnswer: {fileID: 0}
-  timer: 0
-  seconds: 0
-  minutes: 0
-  hours: 0
-  start: 0
-  Stopwatch: {fileID: 936808229}
-  Highscore: {fileID: 779069903}
-  Points: {fileID: 753335355}
-  originalrotation: {x: 0, y: 0, z: 0, w: 0}
-  rotationResetSpeed: 1
-  three_points: 40
-  two_points: 60
-  one_point: 120
 --- !u!43 &1817926901
 Mesh:
   m_ObjectHideFlags: 0
@@ -6806,7 +6811,6 @@ GameObject:
   - component: {fileID: 6945234562344511700}
   - component: {fileID: 6945234562344511701}
   - component: {fileID: 6945234562344511702}
-  - component: {fileID: 6945234562344511704}
   - component: {fileID: 6945234562344511703}
   m_Layer: 0
   m_Name: Player
@@ -6878,52 +6882,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 6945234562344511699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f7b40813e96821428b176f217d417eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTarget: {fileID: 0}
-  PauseMenu: {fileID: 0}
-  MathsMenu: {fileID: 0}
-  WrongAnswer: {fileID: 0}
-  RightAnswer: {fileID: 0}
-  timer: 0
-  seconds: 0
-  minutes: 0
-  hours: 0
-  start: 0
-  Stopwatch: {fileID: 0}
-  Highscore: {fileID: 0}
-  Points: {fileID: 0}
-  originalrotation: {x: 0, y: 0, z: 0, w: 0}
-  rotationResetSpeed: 1
-  three_points: 40
-  two_points: 60
-  one_point: 120
---- !u!114 &6945234562344511704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6945234562344511699}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d98e4337cbe6397469b97188c4f01f3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTarget: {fileID: 0}
-  PauseMenu: {fileID: 0}
-  MathsMenu: {fileID: 0}
-  WrongAnswer: {fileID: 0}
-  RightAnswer: {fileID: 0}
+  playerTarget: {fileID: 6945234562344511699}
+  PauseMenu: {fileID: 378273742}
+  WrongAnswer: {fileID: 2029049184}
+  RightAnswer: {fileID: 167928705}
+  MathsMenu: {fileID: 952985195}
   timer: 0
   seconds: 0
   minutes: 0
   hours: 0
   start: 0
-  Stopwatch: {fileID: 0}
-  Highscore: {fileID: 0}
-  Points: {fileID: 0}
+  Points: {fileID: 753335355}
+  Stopwatch: {fileID: 936808229}
+  Highscore: {fileID: 779069903}
   originalrotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!4 &6947208629831576091
 Transform:

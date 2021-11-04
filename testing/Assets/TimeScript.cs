@@ -11,17 +11,17 @@ public class TimeScript : MonoBehaviour
     //Declaring variables for game
     public GameObject playerTarget;
     public GameObject PauseMenu;
-    public GameObject MathsMenu;
     public GameObject WrongAnswer;
     public GameObject RightAnswer;
+    public GameObject MathsMenu;
     public float timer;
     public float seconds;
     public float minutes;
     public float hours;
     public bool start;
+    public Text Points;
     public Text Stopwatch;
     public Text Highscore;
-    public Text Points;
     public Quaternion originalrotation;
     float rotationResetSpeed = 1.0f;
     float three_points = 40.0f;
@@ -34,11 +34,11 @@ public class TimeScript : MonoBehaviour
         playerTarget.transform.rotation = Quaternion.identity;
         PlayerPrefs.SetFloat("Highscore", 10000); //Setting the highscore to an insane high number so that their highscore will always come below it initally
         PlayerPrefs.SetFloat("Points", 0);
-        Points.gameObject.SetActive( false );
-        MathsMenu.gameObject.SetActive( false );
         WrongAnswer.gameObject.SetActive( false );
+        MathsMenu.gameObject.SetActive( false );
         RightAnswer.gameObject.SetActive( false );
         PauseMenu.gameObject.SetActive( false );
+        Points.gameObject.SetActive( false );
     }
 
 
@@ -58,10 +58,6 @@ public class TimeScript : MonoBehaviour
             timer = 0f;
 
         }
-        if (Input.GetKeyDown(KeyCode.Escape)) {
-            Time.timeScale = 0f; //Pause game, instead of switching to scene using timescale and activating the object so it doesn't reset the scene
-            SceneManager.LoadScene(Scene)
-        }
     }
 
     public void StopwatchCounter() {
@@ -73,38 +69,6 @@ public class TimeScript : MonoBehaviour
             Stopwatch.text = minutes.ToString("00") + ":" + seconds.ToString("00"); //Outputting minutes and seconds
         }
     }
-    
-    public void Resume()
-    {
-        Time.timeScale = 1f;
-        PauseMenu.gameObject.SetActive(false); //Resume game
-    }
-
-    public void Answer() {
-        WrongAnswer.gameObject.SetActive( true );
-        PlayerPrefs.SetFloat("Points", PlayerPrefs.GetFloat("Points")-1);
-        Points.gameObject.SetActive( true );
-        Points.text = "You have " + PlayerPrefs.GetFloat("Points").ToString() + " points!";
-        Time.timeScale = 1f;
-    }
-
-    public void Answer1() {
-        RightAnswer.gameObject.SetActive( true );
-        PlayerPrefs.SetFloat("Points", PlayerPrefs.GetFloat("Points")+1 );
-        Points.gameObject.SetActive( true );
-        Points.text = "You have " + PlayerPrefs.GetFloat("Points").ToString() + " points!";
-        Time.timeScale = 1f;
-    }
-
-    
-    public void Answer2() {
-        WrongAnswer.gameObject.SetActive( true );
-        PlayerPrefs.SetFloat("Points", PlayerPrefs.GetFloat("Points")-1);
-        Points.gameObject.SetActive( true );
-        Points.text = "You have " + PlayerPrefs.GetFloat("Points").ToString() + " points!";
-        Time.timeScale = 1f;
-    }
-
 
     void OnTriggerEnter(Collider other) { //Changed script so it's being applied on player, this means we can just set a seperate function 
                                           //For each thing that the player encounters, instead of having different scripts for each object all going back to the player  
@@ -112,10 +76,8 @@ public class TimeScript : MonoBehaviour
         {
             start = !start; //This begins StopwatchCounter()
             timer = 0f; //Resetting timer
-            Points.gameObject.SetActive( false ); //Hiding point displayer
             WrongAnswer.gameObject.SetActive( false );
             RightAnswer.gameObject.SetActive( false );
-            MathsMenu.gameObject.SetActive( false );
         }
         if(other.tag == "outofbounds") //Is triggered when player goes off track
         {
@@ -149,8 +111,6 @@ public class TimeScript : MonoBehaviour
                 PlayerPrefs.SetFloat("Highscore", timer);
             }
             Highscore.text = "Highscore: " + Mathf.Round(PlayerPrefs.GetFloat("Highscore")).ToString() + " seconds"; //Outputting highscore time
-            Time.timeScale = 0f;
-            MathsMenu.gameObject.SetActive( true );
             timer = 0f; //Reset timer
             start = false; //Stop timer
         }

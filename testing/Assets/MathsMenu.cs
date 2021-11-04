@@ -8,7 +8,9 @@ public class MathsMenu : MonoBehaviour
 {
     public GameObject WrongAnswer;
     public GameObject RightAnswer;
+    public GameObject Maths;
     public Text Points;
+    
     public void Answer()
     {
         WrongAnswer.gameObject.SetActive(true);
@@ -38,11 +40,9 @@ public class MathsMenu : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "player")
-        {
-            Time.timeScale = 0f;
-            Maths.gameObject.SetActive(true);
-        }
+        Debug.Log("Player triggered");
+        Maths.gameObject.SetActive( true );
+        Time.timeScale = 0f;
     }
 }
 
