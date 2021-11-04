@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-11-04T01:54:36.200+13:00
-  initializedAtString: 2021-11-04T00:52:33.333+13:00
+  lastUpdatedAtString: 2021-11-04T14:58:13.524+13:00
+  initializedAtString: 2021-11-04T13:56:52.619+13:00
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
-  - name: origin/master
+  - name: origin/HEAD
     tracking: '[None]'
   remotes:
   - name: origin
@@ -43,10 +43,10 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
-      - master
+      - HEAD
     subKeyValues:
     - Values:
-      - name: master
+      - name: HEAD
         remote:
           name: origin
           url: https://github.com/TyphonCode/RacinginAlgebra.git

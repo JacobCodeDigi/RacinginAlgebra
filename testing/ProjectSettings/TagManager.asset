@@ -9,6 +9,7 @@ TagManager:
   - finishline
   - WrongAnswer
   - RightAnswer
+  - PauseMenu
   layers:
   - Default
   - TransparentFX

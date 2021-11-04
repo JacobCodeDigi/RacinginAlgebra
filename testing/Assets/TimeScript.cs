@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
-public class PlayerScript : MonoBehaviour
+
+public class TimeScript : MonoBehaviour
 {
     //Declaring variables for game
     public GameObject playerTarget;
+    public GameObject PauseMenu;
     public GameObject MathsMenu;
     public GameObject WrongAnswer;
     public GameObject RightAnswer;
@@ -35,14 +38,16 @@ public class PlayerScript : MonoBehaviour
         MathsMenu.gameObject.SetActive( false );
         WrongAnswer.gameObject.SetActive( false );
         RightAnswer.gameObject.SetActive( false );
+        PauseMenu.gameObject.SetActive( false );
     }
 
 
-    void Update() { 
+    void Update()
+    {
         StopwatchCounter(); //On every frame, run this function
-        if(Input.GetKeyDown(KeyCode.R)) //Combined restart.cs into this script, fixed a bug so that it just teleports the player back to the start and resets like outofbounds,
-                                        //instead of restarting the whole scene (which would mean that the highscore would be lost)
-                                        //This had to be moved here as it is easier and more functional because it references and needs certain variables set
+        if (Input.GetKeyDown(KeyCode.R)) //Combined restart.cs into this script, fixed a bug so that it just teleports the player back to the start and resets like outofbounds,
+                                         //instead of restarting the whole scene (which would mean that the highscore would be lost)
+                                         //This had to be moved here as it is easier and more functional because it references and needs certain variables set
         {
             playerTarget.transform.position = new Vector3(1562.02f, 1.202606f, 1627.04f);
             playerTarget.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
@@ -50,7 +55,12 @@ public class PlayerScript : MonoBehaviour
             playerTarget.transform.rotation = originalrotation;
             Stopwatch.text = "00:00";
             start = false;
-            timer = 0f;  
+            timer = 0f;
+
+        }
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Time.timeScale = 0f; //Pause game, instead of switching to scene using timescale and activating the object so it doesn't reset the scene
+            SceneManager.LoadScene(Scene)
         }
     }
 
@@ -63,13 +73,19 @@ public class PlayerScript : MonoBehaviour
             Stopwatch.text = minutes.ToString("00") + ":" + seconds.ToString("00"); //Outputting minutes and seconds
         }
     }
+    
+    public void Resume()
+    {
+        Time.timeScale = 1f;
+        PauseMenu.gameObject.SetActive(false); //Resume game
+    }
 
     public void Answer() {
-        WrongAnswer.gameObject.SetActive( true ); //Displaying text
-        PlayerPrefs.SetFloat("Points", PlayerPrefs.GetFloat("Points")-1); //Removing point
-        Points.gameObject.SetActive( true ); //Displaying points statement
-        Points.text = "You have " + PlayerPrefs.GetFloat("Points").ToString() + " points!"; //Point statement
-        Time.timeScale = 1f; //Starts the game again
+        WrongAnswer.gameObject.SetActive( true );
+        PlayerPrefs.SetFloat("Points", PlayerPrefs.GetFloat("Points")-1);
+        Points.gameObject.SetActive( true );
+        Points.text = "You have " + PlayerPrefs.GetFloat("Points").ToString() + " points!";
+        Time.timeScale = 1f;
     }
 
     public void Answer1() {
@@ -133,7 +149,7 @@ public class PlayerScript : MonoBehaviour
                 PlayerPrefs.SetFloat("Highscore", timer);
             }
             Highscore.text = "Highscore: " + Mathf.Round(PlayerPrefs.GetFloat("Highscore")).ToString() + " seconds"; //Outputting highscore time
-            Time.timeScale = 0f; //Pause the game for the quiz
+            Time.timeScale = 0f;
             MathsMenu.gameObject.SetActive( true );
             timer = 0f; //Reset timer
             start = false; //Stop timer

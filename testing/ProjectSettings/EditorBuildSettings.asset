@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 75c4a17ca81a8f640b174f1b40f2628c
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: a130c156ca8acbe4d8d5d87971cba21a
+  - enabled: 1
+    path: Assets/Scenes/OptionsMenu.unity
+    guid: 31d080f03961dcd439203ad0fa27b545
+  - enabled: 1
+    path: Assets/Scenes/PauseMenu.unity
+    guid: 2620d11909a139749b3d8fc3c3967294
+  - enabled: 1
+    path: Assets/Scenes/MathsMenu.unity
+    guid: eff2145350788194bae9276945f0cc51
   m_configObjects: {}
