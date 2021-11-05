@@ -78,14 +78,12 @@ public class TimeScript : MonoBehaviour
             timer = 0f; //Resetting timer
             WrongAnswer.gameObject.SetActive( false );
             RightAnswer.gameObject.SetActive( false );
+            Points.gameObject.SetActive(false);
+            MathsMenu.gameObject.SetActive(false);
         }
         if(other.tag == "outofbounds") //Is triggered when player goes off track
         {
-            start = false; //Stops the counting and resetting it
-            playerTarget.transform.position = new Vector3(1562.02f, 1.202606f, 1627.04f);
-            playerTarget.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePosition;
-            playerTarget.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-            playerTarget.transform.rotation = originalrotation; //These 4 lines are freezing and moving the player object back to the startline
+            start = false; //Stops the counting and resetting 
             Stopwatch.text = "00:00"; //Reset stopwatch text
         }
         if(other.tag == "finishline")
